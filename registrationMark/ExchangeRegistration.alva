@@ -267,13 +267,13 @@ elements:
     highlighted: false
     id: 5846e400-1ecd-4e67-bfcc-fb2922662781
     name: Button
-    open: true
+    open: false
     forcedOpen: false
     patternId: 1a7faa275463dca06579fdd9f3c0227913e5a76c
     placeholderHighlighted: none
     propertyValues:
       - - 5eb2473b6e2544c4e472348ab4546f21913be44e
-        - null
+        - false
       - - c16660365545c087229dc3f99557e180d8a72dd2
         - button-primary
       - - 82c63e9163dd2ec05a2817e01ab8a82796c05fe7
@@ -410,27 +410,20 @@ id: 810ad8c0-e148-4452-935b-c1088f818bc7
 name: ExchangeRegistration
 pages:
   - model: Page
-    active: true
+    active: false
     focused: false
     id: 7e338470-9458-4466-92f4-9048a82caee7
     name: Query Page
     rootId: 7c8d0923-2ea1-464a-8e44-29438d5aa475
   - model: Page
-    active: false
-    focused: false
+    active: true
+    focused: true
     id: 799ac8a8-b08e-4f26-805c-746da716581b
     name: Search Page
     rootId: 235b4904-6a51-4648-8b31-b13bf5bd996e
-  - model: Page
-    active: false
-    focused: false
-    id: 5acdb756-bf72-48f6-9588-bf6a3d515b05
-    name: Page 2
-    rootId: 0c915ed2-5ad9-4212-9d22-5b1b608a9712
 pageList:
   - 7e338470-9458-4466-92f4-9048a82caee7
   - 799ac8a8-b08e-4f26-805c-746da716581b
-  - 5acdb756-bf72-48f6-9588-bf6a3d515b05
 path: >-
   C:\Users\Salke\IdeaProjects\VRSDemo.github.io\registrationMark\ExchangeRegistration.alva
 patternLibraries:
@@ -2798,7 +2791,7 @@ userStore:
     model: UserStoreProperty
     id: cfc72d08-55f5-4f39-8fc8-ee9c2eede473
     name: Current Page
-    concreteValue: 7e338470-9458-4466-92f4-9048a82caee7
+    concreteValue: 799ac8a8-b08e-4f26-805c-746da716581b
     initialValue: ''
     type: concrete
     valueType: page
